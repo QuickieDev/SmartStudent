@@ -10,9 +10,9 @@ server_secret = '#$51365871273092qhwjdjasd913'
 SERVER_HOST = 'smart-student'
 
 WSGI_OPTS = {
-    'server': 'gevent',
+    'server': 'gunicorn',
     'reloader': True,
-    'port': 8085,
+    'port': 80,
     'host': '0.0.0.0'
 }
 
