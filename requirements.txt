@@ -1,0 +1,11 @@
+click
+ujson
+psycopg2
+gevent
+psycogreen
+lunatic
+Jinja2
+bottle
+bottle-neck
+bottle-smart-filters
+six
