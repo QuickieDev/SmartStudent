@@ -8,6 +8,7 @@ from bottle import jinja2_template
 from bottle_neck import BaseHandler
 
 
+
 class IndexHandler(BaseHandler):
     """Main page handler.
     """
