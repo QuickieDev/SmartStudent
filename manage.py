@@ -56,6 +56,7 @@ def build():
         ["riot", "components/admin", "static/admin/components"]
     )
 
+
 if __name__ == '__main__':
 
     manager()
