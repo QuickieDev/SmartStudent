@@ -13,7 +13,7 @@ WSGI_OPTS = {
     'server': 'gunicorn',
     'reloader': True,
     'port': 8000,
-    'host': '127.0.0.0'
+    'host': '127.0.0.1'
 }
 
 
