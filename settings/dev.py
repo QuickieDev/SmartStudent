@@ -10,7 +10,7 @@ server_secret = '#$51365871273092qhwjdjasd913'
 SERVER_HOST = 'localhost'
 
 WSGI_OPTS = {
-    'server': 'wsgiref',
+    'server': 'gunicorn',
     'reloader': True,
     'port': 8085,
     'host': 'localhost'

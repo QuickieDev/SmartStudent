@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 /*--header--*/
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Lato', sans-serif;
+	font-family: 'acgeosans', sans-serif;
 }
 ul ,ol {
 	 padding:0;
@@ -34,7 +34,7 @@ h1,h2,h3,h4,h5,h6{
 	display:inline-block;
 }
 .header-top-nav ul li a{
-	font-family: 'Lato', sans-serif;
+	font-family: 'acgeosans', sans-serif;
 	font-size: 1em;
 	padding-right: 11px;
 	transition: 0.5s ease;
@@ -64,7 +64,7 @@ h1,h2,h3,h4,h5,h6{
     vertical-align: middle;
     cursor: pointer;
     letter-spacing: 1px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'acgeosans', sans-serif;
 	transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -o-transition: 0.5s all;
@@ -95,7 +95,7 @@ h1,h2,h3,h4,h5,h6{
     outline: none;
     border: none;
     border-bottom: 2px solid #000;
-    font-family: 'Lato', sans-serif;
+    font-family: 'acgeosans', sans-serif;
 	background: Transparent;
 	width: 100%;
 }
@@ -232,7 +232,7 @@ h1,h2,h3,h4,h5,h6{
     position: relative;
 	font-weight: 500;
 	text-transform: uppercase;
-	font-family: 'Lato', sans-serif;
+	font-family: 'acgeosans', sans-serif;
 	letter-spacing: 1px;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus,.navbar-default .navbar-nav li a.active {
@@ -509,7 +509,7 @@ h1,h2,h3,h4,h5,h6{
     letter-spacing: 2px;
     font-weight: 400;
     text-transform: uppercase;
-	font-family: 'Lato', sans-serif;
+	font-family: 'acgeosans', sans-serif;
 }
 .slider-info h6 {
     color: white;
@@ -517,7 +517,7 @@ h1,h2,h3,h4,h5,h6{
     text-transform: uppercase;
     width: 48%;
     background: #6a67ce;
-    font-family: 'Lato', sans-serif;
+    font-family: 'acgeosans', sans-serif;
     padding: 7px 33px;
     margin: 0 auto;
 }
@@ -525,7 +525,7 @@ h1,h2,h3,h4,h5,h6{
     color: white;
        font-size: 2em;
     text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Aka', sans-serif;
     font-weight: 900;
 	margin-bottom:0.3em;
     letter-spacing: 2px;
@@ -546,7 +546,7 @@ a:focus, a:hover {
 .about h1, .services h3, #gallery h3, .team h3, .gallery h3, .event h3, .contact-agile h3{
 	font-size: 3em;
     color:#333;
-    font-family: 'Lato', sans-serif;
+    font-family: 'acgeosans', sans-serif;
 	font-weight: 700;
 	text-align:center;
 	margin-bottom: 1em;
@@ -674,7 +674,7 @@ background: none;
    position: relative;
   top: 3px;
   display: block;
-  font-family: 'Lato', sans-serif;
+  font-family: 'acgeosans', sans-serif;
   font-style: normal;
   font-weight: normal;
   text-align: center;
@@ -687,7 +687,7 @@ background: none;
   position: relative;
   top: 33px;
   display: inline-block;
-  font-family: 'Lato', sans-serif;
+  font-family: 'acgeosans', sans-serif;
   font-style: normal;
   font-weight: normal;
   left: 0px;
@@ -706,7 +706,7 @@ background: none;
 .count h5 {
     font-size: 1.7em;
     color: #777;
-	font-family: 'Lato', sans-serif;
+	font-family: 'acgeosans', sans-serif;
 }
 p.counter {
     font-size: 2.5em;
@@ -727,7 +727,7 @@ p.counter {
     font-size: 1.7em;
     text-transform: uppercase;
     margin-bottom: 1em;
-	font-family: 'Lato', sans-serif;
+	font-family: 'acgeosans', sans-serif;
     font-weight: 700;
     color: #fff;
 }
@@ -751,7 +751,7 @@ p.counter {
     padding: 7px 27px;
     margin: 60px 6px;
     display: inline-block;
-    font-family: 'Lato', sans-serif;
+    font-family: 'acgeosans', sans-serif;
     text-transform: uppercase;
 	cursor:pointer;
 }
@@ -1099,7 +1099,7 @@ figure.effect-jazz h4 {
     text-decoration: none;
     font-size: 1.3em;
     opacity: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'acgeosans', sans-serif;
     margin-top: 4em;
     letter-spacing: 2px;
     font-weight: 900;
@@ -1110,7 +1110,7 @@ figure.effect-jazz p {
 	text-decoration: none;
 	font-size: 0.85em;
 	opacity: 0;
-	font-family: 'Lato', sans-serif;
+	font-family: 'acgeosans', sans-serif;
     line-height: 2;
 	letter-spacing: 2px;
 }
@@ -1157,7 +1157,7 @@ figure.effect-jazz a {
 .portfolio-modal .modal-content h3 {
     margin: 0;
     font-size: 2.7em;
-    font-family: 'Lato', sans-serif;
+    font-family: 'acgeosans', sans-serif;
     color: #fff;
     margin-bottom: 0.7em;
     text-transform: uppercase;
@@ -1507,7 +1507,7 @@ h4.text {
 .review h3{
 	color:#6a67ce;
 	font-size: 3em;
-    font-family: 'Lato', sans-serif;
+    font-family: 'acgeosans', sans-serif;
 	font-weight: 700;
 	text-align:center;
 	margin-bottom: 1em;
@@ -1641,7 +1641,7 @@ h4.text {
 .agileinfo_footer_grid h4 {
 	font-size: 2em;
     color:#fff;
-    font-family: 'Lato', sans-serif;
+    font-family: 'acgeosans', sans-serif;
 	font-weight: 700;
 	margin-bottom: 1em;
 	text-transform:uppercase;
