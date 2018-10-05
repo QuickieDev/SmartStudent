@@ -53,11 +53,13 @@
     <link href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&subset=latin-ext" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Covered+By+Your+Grace" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=GFS+Neohellenic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=GFS+Didot" rel="stylesheet">
     <!-- //online-fonts -->
     <style>
         .slider-info {
         }
         .greek {
+            /*font-family: 'GFS Neohellenic', sans-serif;*/
             font-family: 'GFS Neohellenic', sans-serif;
         }
     </style>
@@ -65,12 +67,12 @@
 <body>
 <div class="main-w3layouts" id="home">
     <!--top-bar-->
-    <div class="top-search-bar">
+    <div class="top-search-bar" style="background: #68b9d8; height: 5.5% !important;">
         <div class="header-top-nav">
             <ul>
-                <li><a href="#" data-toggle="modal" data-target="#myModal1"><i class="fa fa-envelope" aria-hidden="true"></i>NEWSLETTER</a></li>
-                <!--<li><a href="#" data-toggle="modal" data-target="#myModal3"><i class="fa fa-key" aria-hidden="true"></i>ΕΙΣΟΔΟΣ</a></li>-->
-                <!--<li><a href="#" data-toggle="modal" data-target="#myModal4"><i class="fa fa-lock" aria-hidden="true"></i>ΕΓΓΡΑΦΗ</a></li>-->
+                <!--<li><a href="#" data-toggle="modal" data-target="#myModal1"><i class="fa fa-envelope" aria-hidden="true"></i>NEWSLETTER</a></li>-->
+                <li><a href="#smap" class="scroll greek"  style="color: white" ><i class="fa fa-map-pin" style="color: white" aria-hidden="true"></i> <b>ΣΟΥΛΙΟΥ 21, ΙΛΙΟΝ</b></a></li>
+                <li><a href="#smap" class="scroll greek"  style="color: white" ><i class="fa fa-map-pin" style="color: white" aria-hidden="true"></i> <b>ΜΕΝΕΛΑΟΥ 101, ΙΛΙΟΝ</b></a></li>
             </ul>
         </div>
     </div>
@@ -147,16 +149,16 @@
     </div>
     <div class="clearfix"></div>
     <!-- //Modal4-->
-    <div class="search">
-        <form action="#" method="post">
-            <input type="search" placeholder="αναζήτηση ..." required="" />
-            <input type="submit" value=" ">
-        </form>
-    </div>
+    <!--<div class="search">-->
+    <!--<form action="#" method="post">-->
+    <!--<input type="search" placeholder="αναζήτηση ..." required="" />-->
+    <!--<input type="submit" value=" ">-->
+    <!--</form>-->
+    <!--</div>-->
     <div class="clearfix"></div>
     <!--//top-bar-->
     <!-- navigation -->
-    <div class ="top-nav">
+    <div class ="top-nav" style="top: 5.5% !important;">
         <nav class="navbar navbar-default">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -170,7 +172,7 @@
             <!-- navbar-header -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html" class="hvr-underline-from-center active" style="font-family: acgeosans">αρχικη</a></li>
+                    <li><a href="#" class="hvr-underline-from-center active">αρχικη</a></li>
                     <li><a href="#about" class="hvr-underline-from-center scroll">ποιοι ειμαστε</a></li>
                     <li><a href="#services" class="hvr-underline-from-center scroll">υπηρεσιες</a></li>
                     <li><a href="#gallery" class="hvr-underline-from-center scroll">Προγραμμα μελετησ</a></li>
@@ -183,24 +185,29 @@
     </div>
     <!-- //navigation -->
 
-    <div class="header">
+    <div class="header" style="height: 100vh">
+
         <!-- Slider -->
         <div class="slider">
+
             <div class="callbacks_container">
                 <ul class="rslides" id="slider">
                     <li>
 
-                        <div class="slider-info" >
+                        <div class="slider-info" style="background: transparent !important;">
 
-                            <h6
-                                    style="font-family: 'GFS Neohellenic', sans-serif; font-weight: bold;width: 100% !important;"
-                            >ΚΕΝΤΡΟ ΜΕΛΕΤΗΣ ΣΤΟ ΙΛΙΟΝ</h6>
+
+                            <h1><span style="font-family: 'Covered By Your Grace', cursive; font-size: 3.2em; color: #ff5d52"> Smart student</span></h1>
+                            <h6 class="hidden-xs" style="font-size: 2.9em; font-family: 'GFS Neohellenic', sans-serif; background: transparent !important; font-weight: bold;width: 100% !important; color: #ffc10d">
+                                ΚΕΝΤΡΟ ΜΕΛΕΤΗΣ ΣΤΟ ΙΛΙΟΝ
+                            </h6>
+                            <figure class="icon hidden-xs">
+                                <a href="#about" class="hvr-underline-from-center scroll">
+                                    <span style="font-size: 8em; color: #ff5d52;" class="glyphicon glyphicon-circle-arrow-down a2" aria-hidden="true"></span>
+                                </a>
+                            </figure>
+
                             <!--<p>wisdom begins with wonder.</p>-->
-                            <h3>
-                                <a href="index.html" style="font-family: 'Pacifico', cursive; !important; font-size: 2.1em">Smart Student</a>
-                                <!--<a href="index.html"><span>Edu</span> cational</a>-->
-                                <!--<img src="/static/assets/smart-student-2.png" alt="">-->
-                            </h3>
 
                         </div>
                     </li>
@@ -217,7 +224,10 @@
 <!--about-->
 <div id="about" class="about">
     <div class="container">
-        <h1 class="greek">διαβαζουμε <span>μαζι</span></h1>
+        <h1 class="greek">
+            <span style="font-family: 'Covered By Your Grace', cursive; font-size: 1.4em; color: #333"> Smart student</span> -  διαβαζουμε μαζι
+        </h1>
+
         <h2 class="greek">Στο κέντρο μελέτης <span>Smart</span> Student επενδύουμε καθημερινά στο αποδοτικό διάβασμα με στόχο να κάνουμε τα παιδιά να οργανώνονται
             και να αξιοποιούν πραγματικά το χρόνο διαβάσματος. Γι' αυτό μαθαίνουμε στα παιδιά να μαθαίνουν, δίνοντας τους το
             πιο σημαντικό εφόδιο στην ζωή τους.
@@ -227,31 +237,31 @@
                 <figure class="icon">
                     <span class="glyphicon glyphicon-book a1" aria-hidden="true"></span>
                 </figure>
-                <h5 class="greek">Έξυπνο Διάβασμα</h5>
-                <p class="greek" style="font-size: 19px">Έλεγχος και επίλυση αποριών από τους εκπαιδευτικούς, οργάνωση μαθημάτων σύμφωνα με τις ανάγκες του κάθε μαθητή, εμπέδωση της ύλης με σύγχρονα μέσα μετά το διάβασμα.</p>
+                <h5 class="greek">ΕΞΥΠΝΟ ΔΙΑΒΑΣΜΑ</h5>
+                <p class="" style="font-size: 19px">Έλεγχος και επίλυση αποριών από τους εκπαιδευτικούς, σύμφωνα με τις ανάγκες του κάθε μαθητή, με σύγχρονα μέσα μετά το διάβασμα.</p>
             </div>
             <div class="col-md-4 service-box wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
                 <figure class="icon">
                     <span class="glyphicon glyphicon-calendar a2" aria-hidden="true"></span>
                 </figure>
-                <h5 class="greek">σωστό πρόγραμμα</h5>
-                <p class="greek" style="font-size: 19px">Καθημερινή Οργάνωση των μαθημάτων, προγραμματισμός με βάση κάλυψη κενών και αδυναμιών, καθημερινή ενημέρωση προόδου</p>
+                <h5 class="greek">ΣΩΣΤΟ ΠΡΟΓΡΑΜΜΑ</h5>
+                <p class="" style="font-size: 19px">Καθημερινή Οργάνωση των μαθημάτων, προγραμματισμός με βάση κάλυψη κενών και αδυναμιών, καθημερινή ενημέρωση προόδου</p>
             </div>
             <div class="col-md-4 service-box wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
                 <figure class="icon">
                     <span class="glyphicon glyphicon-play a3" aria-hidden="true"></span>
                 </figure>
-                <h5 class="greek">Ελεύθερος χρόνος</h5>
-                <p class="greek" style="font-size: 19px">Το "έξυπνο" διάβασμα δεν απαιτεί πολλές ώρες, <u>αλλά σωστή μεθοδικότητα και οργάνωση</u></p>
+                <h5 class="greek">ΕΛΕΥΘΕΡΟΣ ΧΡΟΝΟΣ</h5>
+                <p class="" style="font-size: 19px">Το "έξυπνο" διάβασμα δεν απαιτεί πολλές ώρες, <u>αλλά σωστή μεθοδικότητα και οργάνωση</u></p>
             </div>
             <div class="clearfix"> </div>
         </div>
         <div class="buttons">
-            <div class="button">
-                <h5><a href="#contact" class="scroll" id="Contact">επικοινωνησε μαζι μας</a></h5>
+            <div class="button" style="background: #ff5d52">
+                <h5><a href="#more" class="scroll" >περισσοτερα</a></h5>
             </div>
-            <div class="button2">
-                <h5><a href="#" data-toggle="modal" data-target="#myModal2">Οn-line Εγγραφη</a></h5>
+            <div class="button2" style="background: #ff5d52;">
+                <h5><a href="#gallery" class="scroll" style="color: white">προγραμμα μελετης</a></h5>
             </div>
         </div>
         <!-- Modal1 -->
@@ -310,10 +320,25 @@
     </div>
 </div>
 
-<div class="about-info">
-    <img src="/static/images/ab.jpg" alt="about-image">
-    <div class="right-agile">
-        <h5 class="greek">Ο χωρος μας</h5>
+<div id="more" class="about-info" style="background: #b1c642; overflow: auto">
+    <img src="/static/images/cd.jpg" alt="about-image">
+    <div class="right-agile" style="background: #b1c642;">
+        <h5 class="greek">Οι ΕΚΠΑΙΔΕΥΤΙΚΟΙ μας</h5>
+        <p class="greek">
+            Στόχος μας είναι να αναπτύξουμε την ικανότητα διαχείρισης του χρόνου ώστε οι μαθητές να οργανώσουν
+            αποτελεσματικά το διάβασμά τους και να αποκτήσουν ενδιαφέρον για τη μάθηση.
+            Όλα αυτά με την επίβλεψη ειδικά καταρτισμένων και έμπειρων εκπαιδευτικών, που ρόλος τους είναι να μάθουν τα παιδιά να ΄΄μαθαίνουν΄΄
+            και να κοινωνικοποιηθούν.  Γι΄αυτό όλοι οι εκπαιδευτικοί του <span>Smart Student</span> συντονίζονται
+            από ειδικό παιδαγωγό με σπουδές στην Ελλάδα και στο εξωτερικό και σύμβουλο του κέντρου μελέτης!
+        </p>
+    </div>
+</div>
+<div class="clearfix"></div>
+
+<div class="about-info" style="margin-top: 0 !important; background: #68b9d8; overflow: auto">
+    <img src="/static/images/ab.jpg" alt="about-image" style="float: right !important;">
+    <div class="right-agile" style="background: #68b9d8;">
+        <h5 class="greek ">Ο χωρος μας</h5>
         <p class="greek">Πιστεύουμε πως το σωστό διάβασμα προϋποθέτει έναν οικείο και καλά οργανωμένο χώρο. Στα <span>Smart Student</span>
             παρέχουμε ειδικά διαμορφωμένους χώρους για παιδιά, με ευρύχωρες και χαρούμενες αίθουσες, εποπτικά μέσα και
             μέσα οργάνωσης της μελέτης, δανειστική παιδική βιβλιοθήκη, γωνία παιδαγωγικών παιχνιδιών και πειραμάτων για την εμπέδωση
@@ -322,16 +347,22 @@
     </div>
 </div>
 <div class="clearfix"></div>
+
 <!--//about-->
 
 <!-- services -->
-<div class="services" id="services" style="background:url(/static/images/smart-student-2.png) no-repeat center; background-size:cover;
+<div class="services" id="services" style="background:url(/static/images/back-section.jpg) no-repeat center; background-size:cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
     -moz-background-size: cover;" >
 
-    <h4 class="greek text-center" style="color: white; font-size: 3em">Γνωρίζουμε πόσο έχετε επενδύσει στην πρόοδο του παιδιού σας γιατί γνωρίζουμε πόσο το αγαπάτε <br>
+    <h3 class="title-w3" style="color: white">
+        <span style="font-family: 'Covered By Your Grace', cursive; font-size: 1.4em; color: white"> Smart student</span> -  ΦΙΛΟΣΟΦΙΑ</h3>
+
+
+    <h4 class="greek text-center" style="color: white; font-size: 3em">Γνωρίζουμε πόσο έχετε επενδύσει στην πρόοδο του
+        <br> παιδιού σας γιατί γνωρίζουμε πόσο το αγαπάτε <br>
         Γι' αυτό και εμείς φροντίζουμε να παρέχουμε τα εξής:
     </h4>
 
@@ -371,7 +402,7 @@
 
 <!-- gallery -->
 <div class="portfolio" id="gallery">
-    <h3>Smart student ΠΡΟΓΡΑΜΜΑ ΜΕΛΕΤΗΣ</h3>
+    <h3 class="greek"> <span style="font-family: 'Covered By Your Grace', cursive; font-size: 1.4em;"> Smart student</span> - ΠΡΟΓΡΑΜΜΑ ΜΕΛΕΤΗΣ</h3>
 
     <div class="portfolio-top wow fadeInUp animated" data-wow-delay=".5s">
         <div class="col-md-3 grid grid-wi slideanim">
@@ -462,7 +493,7 @@
             </figure>
         </div>
 
-        <div class="clearfix"></div>
+
     </div>
 
 
@@ -531,6 +562,7 @@
 
     </div>
 </div>
+
 <div class="portfolio-modal modal fade slideanim" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -542,9 +574,19 @@
 
             <div class="col-lg-8 col-lg-offset-2">
                 <div class="modal-body">
-                    <h3>Educational</h3>
+                    <h3>ΠΡΟΓΡΑΜΜΑ LIGHT</h3>
 
-                    <img src="/static/images/g4.jpg" class="img-responsive" alt="">
+                    <div class="row" style="color: white">
+                        <div class="col-md-6" style="background: #ff5d52;">
+                            <h4>ΔHMOTIKO</h4>
+                            <hr>
+                        </div>
+                        <div class="col-md-6" style="background: #ffc10d">
+                            <h4>ΓΥΜΝΑΣΙΟ</h4>
+                            <hr>
+                        </div>
+                    </div>
+
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
             </div>
@@ -616,132 +658,7 @@
     </div>
 </div>
 <!-- /Portfolio Modals -->
-<!-- //gallery -->
 
-<!-- team -->
-<!--<div class="team" id="team">-->
-<!--<div class="container">-->
-<!--<h3 class="title">Our  <span>Team</span></h3>-->
-<!--<div class="team_gds">-->
-<!--<div class="col-md-3 team_gd1 wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.1s">-->
-<!--<div class="team_pos">-->
-<!--<div class="team_back"></div>-->
-<!--<img class="img-responsive" src="/static/images/t1.jpg"  alt=" ">-->
-<!--<div class="team_info">-->
-<!--<a href="#"  class="face_one"><i class=" so1 fa fa-facebook fc1" aria-hidden="true"></i></a>-->
-<!--<a href="#"  class="face_one"><i class=" so2 fa fa-twitter fc2" aria-hidden="true"></i></a>-->
-<!--<a href="#"  class="face_one"><i class=" so3 fa fa-google fc3" aria-hidden="true"></i></a>-->
-<!--</div>-->
-<!--</div>-->
-<!--<h4>Victoria</h4>-->
-<!--<p>Lorem Ipsum</p>-->
-<!--</div>-->
-
-<!--<div class="col-md-3 team_gd1 wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.1s">-->
-<!--<div class="team_pos">-->
-<!--<div class="team_back"></div>-->
-<!--<img class="img-responsive" src="/static/images/t2.jpg"  alt=" ">-->
-<!--<div class="team_info">-->
-<!--<a href="#"  class="face_one"><i class=" so1 fa fa-facebook fc1" aria-hidden="true"></i></a>-->
-<!--<a href="#"  class="face_one"><i class=" so2 fa fa-twitter fc2" aria-hidden="true"></i></a>-->
-<!--<a href="#"  class="face_one"><i class=" so3 fa fa-google fc3" aria-hidden="true"></i></a>-->
-<!--</div>-->
-<!--</div>-->
-<!--<h4>Patrick</h4>-->
-<!--<p>Lorem Ipsum</p>-->
-<!--</div>-->
-<!--<div class="col-md-3 team_gd1 wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.1s">-->
-<!--<div class="team_pos">-->
-<!--<div class="team_back"></div>-->
-<!--<img class="img-responsive" src="/static/images/t3.jpg"  alt=" ">-->
-<!--<div class="team_info">-->
-<!--<a href="#"  class="face_one"><i class=" so1 fa fa-facebook fc1" aria-hidden="true"></i></a>-->
-<!--<a href="#"  class="face_one"><i class=" so2 fa fa-twitter fc2" aria-hidden="true"></i></a>-->
-<!--<a href="#"  class="face_one"><i class=" so3 fa fa-google fc3" aria-hidden="true"></i></a>-->
-<!--</div>-->
-<!--</div>-->
-<!--<h4>Thompson</h4>-->
-<!--<p>Lorem Ipsum</p>-->
-<!--</div>-->
-<!--<div class="col-md-3 team_gd1 wow zoomIn" data-wow-duration="1.5s" data-wow-delay="0.1s">-->
-<!--<div class="team_pos">-->
-<!--<div class="team_back"></div>-->
-<!--<img class="img-responsive" src="/static/images/t4.jpg"  alt=" ">-->
-<!--<div class="team_info">-->
-<!--<a href="#"  class="face_one"><i class=" so1 fa fa-facebook fc1" aria-hidden="true"></i></a>-->
-<!--<a href="#"  class="face_one"><i class=" so2 fa fa-twitter fc2" aria-hidden="true"></i></a>-->
-<!--<a href="#"  class="face_one"><i class=" so3 fa fa-google fc3" aria-hidden="true"></i></a>-->
-<!--</div>-->
-<!--</div>-->
-<!--<h4>Federica</h4>-->
-<!--<p>Lorem Ipsum</p>-->
-<!--</div>-->
-<!--<div class="clearfix"></div>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!-- //team -->
-
-<!-- Events -->
-<!--<div class="event" id="events">-->
-<!--<div class="container">-->
-<!--<h3>νεα</h3>-->
-<!--<div class="col-md-4 eve-agile e1">-->
-<!--<div class="eve-sub1">-->
-<!--<a href="#" data-toggle="modal" data-target="#myModal5"><img src="/static/images/e2.jpg" alt="image"></a>-->
-<!--<h4><a href="#" data-toggle="modal" data-target="#myModal5">Educational</a></h4>-->
-<!--<h6>By an <a href="#">admin</a>, Oct-2016</h6>-->
-<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>-->
-<!--</div>-->
-<!--<div class="eve-sub2">-->
-<!--<div class="eve-w3lleft">-->
-<!--<h6><i class="fa fa-comment-o" aria-hidden="true"></i>17</h6>-->
-<!--<h6><i class="fa fa-heart-o" aria-hidden="true"></i>78</h6>-->
-<!--</div>-->
-<!--<div class="eve-w3lright e1">-->
-<!--<a href="#" data-toggle="modal" data-target="#myModal5"><h5>More</h5></a>-->
-<!--</div>-->
-<!--<div class="clearfix"></div>-->
-<!--</div>-->
-<!--</div>-->
-<!--<div class="col-md-4 eve-agile e2">-->
-<!--<div class="eve-sub1">-->
-<!--<a href="#" data-toggle="modal" data-target="#myModal6"><img src="/static/images/e1.jpg" alt="image"></a>-->
-<!--<h4><a href="#" data-toggle="modal" data-target="#myModal6">Educational</a></h4>-->
-<!--<h6>By an <a href="#">admin</a>, Oct-2016</h6>-->
-<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>-->
-<!--</div>-->
-<!--<div class="eve-sub2">-->
-<!--<div class="eve-w3lleft">-->
-<!--<h6><i class="fa fa-comment-o" aria-hidden="true"></i>64</h6>-->
-<!--<h6><i class="fa fa-heart-o" aria-hidden="true"></i>86</h6>-->
-<!--</div>-->
-<!--<div class="eve-w3lright">-->
-<!--<a href="#" data-toggle="modal" data-target="#myModal6"><h5>More</h5></a>-->
-<!--</div>-->
-<!--<div class="clearfix"></div>-->
-<!--</div>-->
-<!--</div>-->
-<!--<div class="col-md-4 eve-agile e3">-->
-<!--<div class="eve-sub1">-->
-<!--<a href="#" data-toggle="modal" data-target="#myModal7"><img src="/static/images/e3.jpg" alt="image"></a>-->
-<!--<h4><a href="#" data-toggle="modal" data-target="#myModal7">Educational</a></h4>-->
-<!--<h6>By an <a href="#">admin</a>, Oct-2016</h6>-->
-<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>-->
-<!--</div>-->
-<!--<div class="eve-sub2">-->
-<!--<div class="eve-w3lleft">-->
-<!--<h6><i class="fa fa-comment-o" aria-hidden="true"></i>47</h6>-->
-<!--<h6><i class="fa fa-heart-o" aria-hidden="true"></i>58</h6>-->
-<!--</div>-->
-<!--<div class="eve-w3lright">-->
-<!--<a href="#" data-toggle="modal" data-target="#myModal7"><h5>More</h5></a>-->
-<!--</div>-->
-<!--<div class="clearfix"></div>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
 
 <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" >
     <div class="modal-dialog">
@@ -795,7 +712,10 @@
 <!--test-->
 <div id="testimonials" class="review">
     <div class="container">
-        <h3 class="title-w3">ΛΕΝΕ για εμΑς</h3>
+        <div class="clearfix"></div>
+        <br>
+        <br>
+        <h3 class="title-w3" style="color: white"><span style="font-family: 'Covered By Your Grace', cursive; font-size: 1.4em; color: white"> Smart student</span> -  ΤΑ ΔΙΚΑΣ ΣΑΣ ΣΧΟΛΙΑ</h3>
         <div class="test-monials">
             <!--//screen-gallery-->
             <div class="sreen-gallery-cursual">
@@ -836,31 +756,33 @@
 <!--//test-->
 
 <!--contact-->
-<div class="map">
-    <h4>Βρες μας στον χάρτη</h4>
-    <iframe src="https://www.google.com/maps/d/embed?mid=1ydPKQp9XtHJqNs28CuH6QCCalez_TqMS" style="border:0" allowfullscreen></iframe>
-    <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1571.3219571501024!2d23.70445917580053!3d38.032080107589444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1a305bedf848b%3A0xbdf343038bb38c1c!2sSmart+Student!5e0!3m2!1sen!2sgr!4v1487600003667" style="border:0" allowfullscreen></iframe>-->
+<div id="smap">
+    <div class="map" style="height: 500px !important;">
+        <h4 style="color: rgb(77,106,121) !important; background: rgba(0, 0, 0, 0.1) !important;"> ΒΡΕΣ ΜΑΣ ΣΤΟΝ ΧΑΡΤΗ</h4>
+        <iframe src="https://www.google.com/maps/d/embed?mid=1ydPKQp9XtHJqNs28CuH6QCCalez_TqMS" style="border:0; height: 500px" allowfullscreen></iframe>
+        <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1571.3219571501024!2d23.70445917580053!3d38.032080107589444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1a305bedf848b%3A0xbdf343038bb38c1c!2sSmart+Student!5e0!3m2!1sen!2sgr!4v1487600003667" style="border:0" allowfullscreen></iframe>-->
+    </div>
 </div>
 <div class="contact-agile" id="contact">
-    <h3>Επικοινωνια Smart <span>Student</span></h3>
+    <h3 class="greek"><span style="font-family: 'Covered By Your Grace', cursive; font-size: 1.4em; color: #333"> Smart student</span> - Επικοινωνια</h3>
     <div class="container">
 
-        <form action="#" method="post" class="wow fadeInLeft animated" data-wow-delay=".5s">
+        <form action="#" method="post" id="contactForm" class="wow fadeInLeft animated" data-wow-delay=".5s">
             <div class="contact-grids1 agileinfo">
                 <div class="contact-me ">
-                    <h4>Message</h4>
+                    <h4 class="greek">ΜΥΝΗΜΑ</h4>
                     <textarea name="Message" placeholder="" required=""> </textarea>
                 </div>
                 <div class="col-md-5 contact-form1">
-                    <h4>Name</h4>
+                    <h4>ΟΝΟΜΑ</h4>
                     <input type="text" name="Name" placeholder="" required="">
                 </div>
                 <div class="col-md-5 contact-form1">
-                    <h4>Email</h4>
+                    <h4>EMAIL</h4>
                     <input type="email" name="Email" placeholder="" required="">
                 </div>
                 <div class="col-md-2 contact-form">
-                    <input type="submit" value="Submit">
+                    <input type="submit" value="ΥΠΟΒΟΛΗ" style="background: #ff5d52">
                 </div>
                 <div class="clearfix"> </div>
 
@@ -875,30 +797,41 @@
 <div class="footer" id="footer">
     <div class="container">
         <div class="col-md-4 agileinfo_footer_grid">
-            <h4 style="font-family: acgeosans">Σχετικα με μας</h4>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. <span>Excepteur sint occaecat cupidatat non proident
-					sunt in culpa qui officia deserunt mollit anim id est laborum.</span></p>
+            <h4>Σχετικα με μας</h4>
+            <p>Στο κέντρο μελέτης μας οι κατάλληλοι άνθρωποι θα μάθουν το παιδί σας να μελετάει μεθοδικά και να προετοιμάζει τα μαθήματά του.
+                <span>
+Smart student! Χώρος γνώσης και δημιουργίας για μαθητές Δημοτικού και Γυμνασίου.</span></p>
         </div>
         <div class="col-md-4 agileinfo_footer_grid mid-w3l nav2">
             <h4>Eπιλογες</h4>
             <ul>
-                <li><a href="#home" class="scroll">Home</a></li>
-                <li><a href="#about" class="scroll">About Us</a></li>
-                <li><a href="#services" class="scroll">Services</a></li>
-                <li><a href="#gallery" class="scroll">Gallery</a></li>
-                <li><a href="#team" class="scroll">Team</a></li>
-                <li><a href="#events" class="scroll">Events</a></li>
-                <li><a href="#testimonials" class="scroll">Testimonials</a></li>
+                <li><a href="#home" class="scroll">ΑΡΧΙΚΗ</a></li>
+                <li><a href="#about" class="scroll">ΣΧΕΤΙΚΑ ΜΕ ΕΜΑΣ</a></li>
+                <li><a href="#services" class="scroll">ΦΙΛΟΣΟΦΙΑ</a></li>
+                <li><a href="#gallery" class="scroll">ΠΡΟΓΡΑΜΜΑ ΜΕΛΕΤΗΣ</a></li>
+                <li><a href="#contact" class="scroll">ΕΠΙΚΟΙΝΩΝΙΑ</a></li>
             </ul>
         </div>
         <div class="col-md-4 agileinfo_footer_grid">
-            <h4>διευθυνση</h4>
+            <h4><span style="font-family: 'Covered By Your Grace', cursive; font-size: 1.4em; color: white"> Smart student 1</span></h4>
             <ul>
-                <li><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Πατρόκλου 92, Ίλιον</li>
-                <li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@smart-student.com">info@smart-student</a></li>
+                <li><i class="fa fa-map-pin" aria-hidden="true"></i> Σουλίου 21, Ίλιον</li>
+                <li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:smartstudent125@gmail.com
+">smartstudent125@gmail.com
+                </a></li>
+                <li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> (+30) 210 263 5033 </li>
+            </ul>
+
+            <h4><span style="font-family: 'Covered By Your Grace', cursive; font-size: 1.4em; color: white"> Smart student 2</span></h4>
+            <ul>
+                <li><i class="fa fa-map-pin" aria-hidden="true"></i> Μενελάου 101, Ίλιον</li>
+                <li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:smartstudent125@gmail.com
+">smartstudent125@gmail.com
+                </a></li>
                 <li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> (+30) 210 262 6251 </li>
             </ul>
+
+
         </div>
 
         <div class="clearfix"> </div>
@@ -992,6 +925,23 @@
 <!-- //smooth scrolling -->
 <!--// bottom-top -->
 <script type="text/javascript" src="/static/js/bootstrap-3.1.1.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<script>
+    // events
+
+    $(document).ready(function() {
+        var contactForm = $('#contactForm');
+
+        contactForm.submit(function(e) {
+            e.preventDefault();
+            return swal({
+                title: 'Το μήνυμα σας στάλθηκε με επιτυχία',
+                icon: 'success'
+            })
+        })
+    });
+</script>
 
 </body>
 </html>
